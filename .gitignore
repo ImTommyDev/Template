@@ -1,0 +1,43 @@
+# ---- GENERAL ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---- FRONTEND (React) ----
+Template.Client/node_modules/
+Template.Client/dist/
+Template.Client/build/
+Template.Client/.next/
+Template.Client/out/
+Template.Client/.eslintcache
+Template.Client/.coverage/
+Template.Client/coverage/
+Template.Client/.env.local
+Template.Client/.env.*.local
+
+# ---- BACKEND (.NET) ----
+Template.Server/bin/
+Template.Server/obj/
+Template.Server/.vs/
+Template.Server/TestResults/
+Template.Server/appsettings.*.local.json
+
+# ---- GLOBAL CONFIG ----
+**/node_modules/
+**/bin/
+**/obj/
+**/.vs/
+**/.idea/
+**/.vscode/
+**/dist/
+**/build/
+**/coverage/
+**/TestResults/
+**/*.user
+**/*.suo
+**/*.swp
