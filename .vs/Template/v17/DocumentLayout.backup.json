@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\tomas\\Saved Games\\Template\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FCFD9F09-81B6-7D11-A40E-CA7270667631}|template.client\\template.client.esproj|c:\\users\\tomas\\saved games\\template\\template.client\\src\\.eslintrc.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{FCFD9F09-81B6-7D11-A40E-CA7270667631}|template.client\\template.client.esproj|solutionrelative:template.client\\src\\.eslintrc.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCFD9F09-81B6-7D11-A40E-CA7270667631}|template.client\\template.client.esproj|c:\\users\\tomas\\saved games\\template\\template.client\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{FCFD9F09-81B6-7D11-A40E-CA7270667631}|template.client\\template.client.esproj|solutionrelative:template.client\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FCFD9F09-81B6-7D11-A40E-CA7270667631}|template.client\\template.client.esproj|c:\\users\\tomas\\saved games\\template\\template.client\\eslint.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{FCFD9F09-81B6-7D11-A40E-CA7270667631}|template.client\\template.client.esproj|solutionrelative:template.client\\eslint.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6F82EBE-10F0-4A26-ADB1-6C5433558F4E}|Template.Server\\Template.Server.csproj|c:\\users\\tomas\\saved games\\template\\template.server\\template.server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{E6F82EBE-10F0-4A26-ADB1-6C5433558F4E}|Template.Server\\Template.Server.csproj|solutionrelative:template.server\\template.server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6F82EBE-10F0-4A26-ADB1-6C5433558F4E}|Template.Server\\Template.Server.csproj|c:\\users\\tomas\\saved games\\template\\template.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6F82EBE-10F0-4A26-ADB1-6C5433558F4E}|Template.Server\\Template.Server.csproj|solutionrelative:template.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,32 +55,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\Users\\tomas\\Saved Games\\Template\\template.client\\README.md",
-              "RelativeDocumentMoniker": "template.client\\README.md",
-              "ToolTip": "C:\\Users\\tomas\\Saved Games\\Template\\template.client\\README.md",
-              "RelativeToolTip": "template.client\\README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-02-20T06:51:38.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": ".eslintrc.js",
-              "DocumentMoniker": "C:\\Users\\tomas\\Saved Games\\Template\\template.client\\src\\.eslintrc.js",
-              "RelativeDocumentMoniker": "template.client\\src\\.eslintrc.js",
-              "ToolTip": "C:\\Users\\tomas\\Saved Games\\Template\\template.client\\src\\.eslintrc.js",
-              "RelativeToolTip": "template.client\\src\\.eslintrc.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-20T06:51:28.023Z",
+              "Title": "Template.Server",
+              "DocumentMoniker": "C:\\Users\\tomas\\Saved Games\\Template\\Template.Server\\Template.Server.csproj",
+              "RelativeDocumentMoniker": "Template.Server\\Template.Server.csproj",
+              "ToolTip": "C:\\Users\\tomas\\Saved Games\\Template\\Template.Server\\Template.Server.csproj",
+              "RelativeToolTip": "Template.Server\\Template.Server.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-20T07:35:40.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Saved Games\\Template\\Template.Server\\Program.cs",
+              "RelativeDocumentMoniker": "Template.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\tomas\\Saved Games\\Template\\Template.Server\\Program.cs",
+              "RelativeToolTip": "Template.Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T07:35:04.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "eslint.config.js",
               "DocumentMoniker": "C:\\Users\\tomas\\Saved Games\\Template\\template.client\\eslint.config.js",
               "RelativeDocumentMoniker": "template.client\\eslint.config.js",

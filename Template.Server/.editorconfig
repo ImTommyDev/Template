@@ -9,3 +9,6 @@ end_of_line = crlf
 charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
+dotnet_diagnostic.verbosity = diagnostic
+[template.client/**]
+dotnet_analyzer_diagnostic.severity = none
