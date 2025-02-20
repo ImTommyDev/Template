@@ -24,18 +24,20 @@ Este template incluye un pre-commit hook con Husky que automatiza las siguientes
 
 ```sh
 #!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
+#. "$(dirname "$0")/husky.sh"
 
-# Formateo automático de archivos en staging con Prettier
-prettier $(git diff --cached --name-only --diff-filter=ACMR | sed 's| |\\ |g') --write --ignore-unknown
-
+echo "🔹 Formateando solo archivos en staging con Prettier..."
+cd template.client && npx prettier $(git diff --cached --name-only --diff-filter=ACMR | sed 's| |\\ |g') --write --ignore-unknown
 git update-index --again
+cd ..
 
 echo "🔹 Ejecutando ESLint en frontend..."
 cd template.client && npm run lint
+cd ..
 
 echo "🔹 Ejecutando C# Formatter en backend..."
-cd ../template.server && dotnet format
+cd Template.Server && dotnet format --no-restore --include "**/*.cs" || true #--verbosity diagnostic -> para ver el diagnostico detallado
+cd ..
 ```
 
 Esto garantiza que el código siga las normas de estilo antes de cada commit.
