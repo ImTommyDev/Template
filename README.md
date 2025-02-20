@@ -129,25 +129,53 @@ app.Run();
 ```
 
 ---
-
 ## 🚀 **Cómo Usarlo**
 
-1. **Clonar el repositorio**
-   ```sh
-   git clone https://github.com/ImTommyDev/Template.git
-   cd Template
-   ```
+Sigue estos pasos para clonar y ejecutar el proyecto en tu máquina local.
 
-2. **Instalar dependencias del frontend**
-   ```sh
-   cd template.client
-   npm install
-   ```
+---
 
-3. **Iniciar el proyecto**
-   ```sh
-   npm run start
-   ```
+### 1️⃣ Clonar el repositorio  
+Abre la terminal y ejecuta:
+```sh
+git clone https://github.com/ImTommyDev/Template.git
+cd ./Template/
+```
+
+---
+
+### 2️⃣ Instalar dependencias  
+Ejecuta los siguientes comandos para instalar todas las dependencias necesarias:
+
+```sh
+# Ir a la carpeta del frontend y instalar dependencias
+cd ./template.client
+npm install
+cd ..
+
+# Ir a la carpeta del backend y restaurar paquetes
+cd ./Template.Server
+dotnet restore
+cd ..
+```
+
+---
+
+### 3️⃣ Iniciar el proyecto  
+Ahora, según la parte del proyecto que quieras ejecutar, usa estos comandos:
+
+#### 🔹 Iniciar el frontend (React + TypeScript)
+```sh
+cd ./template.client
+npm run dev
+```
+
+#### 🔹 Iniciar el backend (.NET)
+```sh
+cd ./Template.Server
+dotnet run
+```
+
 
 ---
 
