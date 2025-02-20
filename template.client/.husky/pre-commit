@@ -1,0 +1,12 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "🔹 Formateando solo archivos en staging con Prettier..."
+prettier $(git diff --cached --name-only --diff-filter=ACMR | sed 's| |\\ |g') --write --ignore-unknown
+git update-index --again
+
+echo "🔹 Ejecutando ESLint en frontend..."
+cd template.client && npm run lint
+
+echo "🔹 Ejecutando C# Formatter en backend..."
+cd ../template.server && dotnet format

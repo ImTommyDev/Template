@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "Y/WudAap7zKbAIJkl3bAv1HiIGRDIwMCYC6Uwp3X7GY=",
+  "Source": "Template.Server",
+  "BasePath": "_content/Template.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\tomas\\Saved Games\\Template\\template.client\\template.client.esproj",
+      "Version": 2,
+      "Source": "template.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

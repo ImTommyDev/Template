@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:65080",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\Users\\tomas\\Saved Games\\Template\\Template.Server\\..\\template.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}
